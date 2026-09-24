@@ -1,0 +1,97 @@
+{
+  "region": "Yangpyeong-gun, Gyeonggi-do, South Korea (sample data)",
+  "stations": [
+    {
+      "id": "ST01",
+      "name_en": "Yangpyeong Station",
+      "name_fa": "ایستگاه مرکزی یانگپیونگ",
+      "lat": 37.4886,
+      "lng": 127.5467,
+      "type": "hub"
+    },
+    {
+      "id": "ST02",
+      "name_en": "Local Clinic",
+      "name_fa": "درمانگاه محلی",
+      "lat": 37.4901,
+      "lng": 127.5428,
+      "type": "health"
+    },
+    {
+      "id": "ST03",
+      "name_en": "Town Office",
+      "name_fa": "مرکز دهیاری",
+      "lat": 37.4923,
+      "lng": 127.5458,
+      "type": "admin"
+    },
+    {
+      "id": "ST04",
+      "name_en": "Senior Welfare Center",
+      "name_fa": "مرکز رفاه سالمندان",
+      "lat": 37.488,
+      "lng": 127.54,
+      "type": "welfare"
+    },
+    {
+      "id": "ST05",
+      "name_en": "Okcheon-myeon Station",
+      "name_fa": "ایستگاه روستایی اوکچئون",
+      "lat": 37.536,
+      "lng": 127.653,
+      "type": "rural"
+    },
+    {
+      "id": "ST06",
+      "name_en": "Danwol-myeon Station",
+      "name_fa": "ایستگاه روستایی دان‌وُل",
+      "lat": 37.69,
+      "lng": 127.62,
+      "type": "rural"
+    },
+    {
+      "id": "ST07",
+      "name_en": "Cheongun-myeon Station",
+      "name_fa": "ایستگاه روستایی چئونگون",
+      "lat": 37.605,
+      "lng": 127.58,
+      "type": "rural"
+    },
+    {
+      "id": "ST08",
+      "name_en": "Gangha-myeon Station",
+      "name_fa": "ایستگاه روستایی گانگ‌ها",
+      "lat": 37.415,
+      "lng": 127.46,
+      "type": "rural"
+    },
+    {
+      "id": "ST09",
+      "name_en": "Yongmun-myeon Station",
+      "name_fa": "ایستگاه روستایی یونگمون",
+      "lat": 37.295,
+      "lng": 127.57,
+      "type": "rural"
+    }
+  ],
+  "fleet": [
+    {
+      "id": "AV-01",
+      "lat": 37.4886,
+      "lng": 127.5467,
+      "battery": 100.0
+    },
+    {
+      "id": "AV-02",
+      "lat": 37.4901,
+      "lng": 127.5428,
+      "battery": 100.0
+    },
+    {
+      "id": "AV-03",
+      "lat": 37.4923,
+      "lng": 127.5458,
+      "battery": 100.0
+    }
+  ]
+}

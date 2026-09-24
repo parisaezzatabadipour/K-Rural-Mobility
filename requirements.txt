@@ -1,0 +1,6 @@
+# Optional — فقط برای داشبورد Streamlit (اختیاری)
+# نسخه اصلی (app.py) به هیچ کتابخانه‌ای نیاز ندارد
+streamlit>=1.30
+folium>=0.15
+streamlit-folium>=0.18
+pandas>=2.0
