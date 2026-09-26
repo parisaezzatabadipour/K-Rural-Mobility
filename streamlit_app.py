@@ -464,27 +464,5 @@ requestAnimationFrame(loop);
 </body>
 </html>"""
 
-class Handler(http.server.BaseHTTPRequestHandler):
-    def do_GET(self):
-        self.send_response(200)
-        self.send_header("Content-Type", "text/html; charset=utf-8")
-        self.end_headers()
-        self.wfile.write(HTML.encode("utf-8"))
 
-    def log_message(self, *args):
-        pass
-
-if __name__ == "__main__":
-    url = f"http://localhost:{PORT}"
-    bar = "=" * 56
-    print(bar)
-    print("  K-Rural-Mobility | فارسی · English · 한국어")
-    print(f"  Open in browser:  {url}")
-    print("  Stop: Ctrl+C")
-    print(bar)
-    threading.Timer(1.0, lambda: webbrowser.open(url)).start()
-    with socketserver.TCPServer(("", PORT), Handler) as httpd:
-        try:
-            httpd.serve_forever()
-        except KeyboardInterrupt:
-            print("\nBye!")
+   
